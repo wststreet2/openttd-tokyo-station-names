@@ -1,0 +1,93 @@
+grf {
+    grfid: "WSTN";
+    name: string(STR_GRF_NAME);
+    desc: string(STR_GRF_DESC);
+    version: 1;
+    min_compatible_version: 0;
+}
+
+town_names(root)
+{
+  {
+    text("Tokyo", 2),
+	text("Kanda", 2),
+	text("Akihabara", 2),
+	text("Okachimachi", 1),
+	text("Ueno", 2),
+	text("Uguisudani", 1),
+	text("Nippori", 2),
+	text("Nishi-Nippori", 1),
+	text("Tabata", 1),
+	text("Komagome", 1),
+	text("Sugamo", 1),
+	text("Otsuka", 1),
+	text("Ikebukuro", 2),
+	text("Mejiro", 1),
+	text("Takadanobaba", 1),
+	text("Shin-Okubo", 1),
+	text("Shinjuku", 2),
+	text("Yoyogi", 1),
+	text("Harajuku", 1),
+	text("Shibuya", 2),
+	text("Ebisu", 2),
+	text("Meguro", 1),
+	text("Gotanda", 1),
+	text("Osaki", 2),
+	text("Shinagawa", 2),
+	text("Tamachi", 1),
+	text("Hamamatsucho", 2),
+	text("Shimbashi", 2),
+	text("Yurakucho", 1),
+	text("Ochanomizu", 1),
+	
+	text("Yotsuya", 1),
+	text("Nakano", 1),
+	text("Koenji", 1),
+	text("Asagaya", 1),
+	text("Ogikubo", 1),
+	text("Nishi-Ogikubo", 1),
+	text("Kichijoji", 1),
+	text("Mitaka", 1),
+	text("Musashi-Sakai", 1),
+	text("Higashi-Koganei", 1),
+	text("Musashi-Koganei", 1),
+	text("Kokubunji", 1),
+	text("Nishi-Kokubunji", 1),
+	text("Kunitachi", 1),
+	text("Tachikawa", 1),
+	text("Hino", 1),
+	text("Toyoda", 1),
+	text("Hachioji", 1),
+	text("Nishi-Hachioji", 1),
+	text("Takao", 1),
+	
+	text("Omiya", 2),
+	text("Saitama-Shintoshin", 1),
+	text("Yono", 1),
+	text("Kita-Urawa", 1),
+	text("Urawa", 2),
+	text("Minami-Urawa", 1),
+	text("Warabi", 1),
+	text("Nishi-Kawaguchi", 1),
+	text("Kawaguchi", 1),
+	text("Akabane", 2),
+	text("Higashi-Jujo", 1),
+	text("Oji", 1),
+	text("Kami-Nakazato", 1),
+	text("Oimachi", 1),
+	text("Omori", 1),
+	text("Kamata", 1),
+	text("Kawasaki", 2),
+	text("Tsurumi", 1),
+	text("Shin-Koyasu", 1),
+	text("Higashi-Kanagawa", 1),
+	text("Yokohama", 2),
+  }
+}
+
+town_names {
+	styles : string(STR_GRF_NAME);
+	{
+	 	town_names(root, 1)
+	}
+}
