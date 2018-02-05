@@ -87,6 +87,25 @@ town_names(root)
 	text("Yokohama", 2),
 
 	// Sobu
+	text("Chiba", 1),
+	text("Nishi-Chiba", 1),
+	text("Inage", 1),
+	text("Shin-Kemigawa", 1),
+	text("Makuhari", 1),
+	text("Tsudanuma", 1),
+	text("Higashi-Funabashi", 1),
+	text("Funabashi", 1),
+	text("Nishi-Funabashi", 1),
+	text("Shimosa-Nakayama", 1),
+	text("Moto-Yawata", 1),
+	text("Ichikawa", 1),
+	text("Koiwa", 1),
+	text("Shin-Koiwa", 1),
+	text("Hirai", 1),
+	text("Kameido", 1),
+	text("Kinshicho", 1),
+	text("Ryogoku", 1),
+	text("Asakusabashi", 1),
   }
 }
 

@@ -1,3 +1,3 @@
 ##grflangid 0x01
  STR_GRF_NAME                                                    :Tokyo Station Names
- STR_GRF_DESC                                                    :Names of train stations from the Yamanote Line, Chuo Line, Keihin-Tohoku Line.
+ STR_GRF_DESC                                                    :Names of train stations in Tokyo. Included lines: Yamanote Line, Chuo Line, Sobu Line, Keihin-Tohoku Line.
