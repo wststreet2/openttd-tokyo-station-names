@@ -9,6 +9,7 @@ grf {
 town_names(root)
 {
   {
+	// Yamanote
     text("Tokyo", 2),
 	text("Kanda", 2),
 	text("Akihabara", 2),
@@ -40,6 +41,7 @@ town_names(root)
 	text("Yurakucho", 1),
 	text("Ochanomizu", 1),
 	
+	// Chuo
 	text("Yotsuya", 1),
 	text("Nakano", 1),
 	text("Koenji", 1),
@@ -61,6 +63,7 @@ town_names(root)
 	text("Nishi-Hachioji", 1),
 	text("Takao", 1),
 	
+	// Keihin Tohoku
 	text("Omiya", 2),
 	text("Saitama-Shintoshin", 1),
 	text("Yono", 1),
@@ -82,6 +85,8 @@ town_names(root)
 	text("Shin-Koyasu", 1),
 	text("Higashi-Kanagawa", 1),
 	text("Yokohama", 2),
+
+	// Sobu
   }
 }
 
